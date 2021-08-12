@@ -1,0 +1,39 @@
+<head> 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div id="block1">Hello World!!!!!!!!
+<form onchange="checkForm()">
+<p><input type="number" id="building_length" value="10" name="building_length"> Длина здания</p>
+<p><input type="number" id="building_width" value="6" name="building_width"> Ширина здания</p>
+<p><input type="number" id="building_height" value="5" name="building_height"> Высота здания</p>
+<p><input type="number" id="building_ridge_height" value="6.5" name="building_ridge_height"> Высота здания в коньке</p>
+<p><input type="radio" id="monolithic_foundation_1" value="150" name="monolithic_foundation"> Толщина фундамента 150</p>
+<p><input type="radio" id="monolithic_foundation_2" value="200" name="monolithic_foundation" checked> Толщина фундамента 200</p>
+<p><input type="radio" id="monolithic_foundation_3" value="250" name="monolithic_foundation"> Толщина фундамента 250</p>
+<p><input type="radio" id="monolithic_foundation_4" value="300" name="monolithic_foundation"> Толщина фундамента 300</p>
+<br />
+
+<p><input type="radio" id="roof_type_gable" value="Двускатная кровля" name="roof_type" checked> Двускатная кровля</p>
+<p><input type="radio" id="roof_type_shed" value="Односкатная кровля" name="roof_type"> Односкатная кровля</p>
+<p><input type="radio" id="roof_type_flat" value="Плоская кровля" name="roof_type"> Плоская кровля</p>
+<p><input type="radio" id="roof_type_no_roof" value="Без кровли" name="roof_type"> Без кровли</p>
+<br />
+
+<p><input type="radio" id="horizontal_mounting" value="Горизонтальный монтаж" name="mounting_type" checked> Горизонтальный монтаж</p>
+<p><input type="radio" id="vertical_mounting" value="Вертикальный монтаж" name="mounting_type"> Вертикальный монтаж</p>
+</form>
+
+</div>
+<div id="block2">
+<span id="square_area" name="square_area"></span>
+<span id="shaped_elements" name="shaped_elements"></span>
+
+</div>
+
+
+
+
+
+<script src="calc.js"></script>
+</body>
